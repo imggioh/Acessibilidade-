@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        
+        <!-- Fontes & Ícones -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Barra de Navegação -->
+        <div class="navbar">
+            <div class="logo">
+                <span class="iconify icon" data-icon="healthicons:drone-outline"></span>
+                <p class="logo-text">Skynet Eats</p>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link" href="index.html">Início</a>
+                <a class="nav-link" href="#">Sobre</a>
+                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#">Cadastrar</a>
+            </div>
+        </div>
+        
+        <!-- Conteúdo Principal -->
+        <div>
+            <!-- Seção Hero -->
+            <div class="hero-section">
+                <img class="hero-image" src="images/hero-image.jpg" alt="Drone de entrega de comida dizendo 'Eu venho com ervilhas'." />
+                <div>
+                    <h1 class="hero-heading">Skynet <span>Eats</span></h1>
+                    <p class="hero-text">Entrega de supermercado direto na sua... janela!</p>
+                    <a class="hero-link" href="#">Peça Agora</a>
+                </div>
+            </div>
+    
+            <!-- Seção de Informações -->
+            <div class="info-section">
+                <div class="info">
+                    <h1 class="info-heading">Serviço de Entrega de Comida</h1>
+                    <p>É um pássaro? É um avião? Nenhum dos dois. É um drone a caminho com suas deliciosas compras!  
+                    Se você não quer fast food, mas quer sua comida rápida, <a href="#">confira nossas lojas parceiras aqui</a>.</p>
+                </div>
+                <div class="statistics">
+                    <img class="info-image" src="images/pal9000.jpg" alt="Um drone Skynet voando." />
+                    <div class="stat">
+                        <h4 class="stat-heading">Drones 🤖</h4>
+                        <p class="stat-number">+4000</p>
+                    </div>
+                    <div class="stat">
+                        <h4 class="stat-heading">Clientes 🧑🏽</h4>
+                        <p class="stat-number">+120 000</p>
+                    </div>
+                    <div class="stat">
+                        <h4 class="stat-heading">Conflitos com gatos 🐱</h4>
+                        <p class="stat-number">~70</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Seção Sobre -->
+            <div class="about-section">
+                <div class="about">
+                    <h2 class="about-heading">Sobre <span>Nós</span></h2>
+                    <p class="about-text">A Skynet foi fundada por Ariana Grande, uma verdadeira pioneira no campo da IA e da robótica.🦾  
+                    Nosso propósito é servir os humanos — já dirigimos seus carros, passeamos com seus bio-pets, então por que não alimentá-los também?</p>
+                    <p>Se quiser saber mais, acesse nossa página "Sobre".</p>
+                    <div class="about-link">
+                        <a href="#">Sobre a Skynet</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Seção do Formulário -->
+            <div class="form-section">
+                <form>
+                    <h2 class="form-heading">O que vem a seguir?</h2>
+                    <p class="form-intro">Quer pizza direto na sua janela?🍕 Receba uma notificação quando o serviço estiver disponível.</p>
+                    
+                    <label for="Nome">Digite seu nome completo: </label>
+                    <input class="input" type="text" placeholder="Giovana Gabriela" />
+
+                    <label for="email">Digite Email: </label>
+                    <input class="input" type="email" placeholder="sacardogiovana@gmail.com" />
+                    <div class="submit-button" type="button" onclick="submitForm()">Enviar</div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Rodapé -->
+        <div class="footer">
+            <div class="social-links">
+                <a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                    <p>Facebook</p>
+                </a>
+                <a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                    <p>Instagram</p>
+                </a>
+                <a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+                    <p>LinkedIn</p>
+                </a>
+                <a class="social-link" href="#">
+                    <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                    <p>Twitter</p>
+                </a>
+            </div>
+        </div>
+        
+        <script src="index.pack.js"></script>
+        <!-- Ícones usados no rodapé -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

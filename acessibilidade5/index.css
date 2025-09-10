@@ -203,7 +203,7 @@ a {
 }
 
 /* Footer */
-.footer {
+footer {
     background-color: #333333;
     margin-top: 100px;
 }
@@ -223,6 +223,11 @@ a {
 .social-links ion-icon {
     padding-right: 10px;
 }
+
+ul {
+      list-style-type: none;
+    } 
+    
 .social-link {
     display: flex;
     align-items: center;
